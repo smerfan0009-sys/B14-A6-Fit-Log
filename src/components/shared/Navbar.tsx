@@ -2,7 +2,7 @@ import React from "react";
 import logo from "@/assets/logo.png";
 import Image from "next/image";
 
-const Navbar: React.FC = () => {
+const Navbar = () => {
   return (
     <header className="bg-[#0a0b0d] text-white border-b border-gray-800">
       <nav className="navbar container mx-auto px-4 lg:px-12 py-4">

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import logo from "@/assets/logo.png";
 
-const Footer: React.FC = () => {
+const Footer = () => {
   return (
     <footer className="bg-[#0a0b0d] text-white border-t border-gray-800/80">
       <div className="container mx-auto px-4 lg:px-12 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">

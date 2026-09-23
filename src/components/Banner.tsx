@@ -2,20 +2,20 @@ import Image from "next/image";
 import React from "react";
 import bannerImg from "@/assets/banner.png";
 
-const Banner: React.FC = () => {
+const Banner = () => {
   return (
     <section className="bg-[#0a0b0d] p-4 md:p-8">
       <div className="container mx-auto">
         {/* Container Box */}
         <div className="bg-[#12141a] rounded-2xl p-8 md:p-14 border border-dashed border-gray-800">
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-15">
             {/* Left Text Content */}
-            <div className="space-y-6 max-w-xl">
+            <div className="space-y-6 max-w-xxl">
               <p className="text-[#a3e635] font-semibold tracking-wider text-xs md:text-sm uppercase">
                 WORKOUT LIBRARY
               </p>
 
-              <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-[1.08] uppercase tracking-tight">
+              <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-[1.08] uppercase tracking-tight">
                 TRAIN WITH INTENT. LOG <br className="hidden sm:inline" /> EVERY
                 SET.
               </h1>
