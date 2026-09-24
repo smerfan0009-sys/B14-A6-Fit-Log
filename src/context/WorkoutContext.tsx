@@ -45,15 +45,13 @@ export const WorkoutProvider: React.FC<{ children: React.ReactNode }> = ({
   };
 
   const removeFromTodayPlan = (id: number) => {
-    const workout = todayPlan.find((item) => item.id === id);
     setTodayPlan((prev) => prev.filter((item) => item.id !== id));
-    if (workout) toast.error(`${workout.name} removed from Today's Plan`);
+    toast.error("Removed from Today's Plan!");
   };
 
   const removeFromSavedPlan = (id: number) => {
-    const workout = savedPlan.find((item) => item.id === id);
     setSavedPlan((prev) => prev.filter((item) => item.id !== id));
-    if (workout) toast.error(`${workout.name} removed from Saved`);
+    toast.error("Removed from Saved Plan!");
   };
 
   const toggleMarkAsDone = (id: number) => {
@@ -62,10 +60,10 @@ export const WorkoutProvider: React.FC<{ children: React.ReactNode }> = ({
       isCompleted ? prev.filter((item) => item !== id) : [...prev, id],
     );
 
-    if (isCompleted) {
-      toast.info("Marked as pending");
+    if (!isCompleted) {
+      toast.success("Workout marked as done! Great job! 🎉");
     } else {
-      toast.success("Workout completed! Great job 🎉");
+      toast.info("Marked as incomplete.");
     }
   };
 

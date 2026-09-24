@@ -4,7 +4,6 @@ import React, { useState, useMemo } from "react";
 import Link from "next/link";
 import { useWorkout } from "@/context/WorkoutContext";
 import PlanCard from "@/components/PlanCard";
-import { toast } from "react-toastify";
 
 const MyPlanPage = () => {
   const [activeTab, setActiveTab] = useState<"today" | "saved">("today");
@@ -44,7 +43,6 @@ const MyPlanPage = () => {
 
   const handleSortChange = (value: "duration" | "calories" | "rating") => {
     setSortBy(value);
-    toast.info(`Sorted by ${value}`);
   };
 
   return (
@@ -109,7 +107,7 @@ const MyPlanPage = () => {
             </button>
           </div>
 
-          {/* Sort By Dropdown with Toast */}
+          {/* Sort By Dropdown */}
           <div className="flex items-center gap-2 text-xs">
             <span className="text-gray-400">Sort By</span>
             <select
