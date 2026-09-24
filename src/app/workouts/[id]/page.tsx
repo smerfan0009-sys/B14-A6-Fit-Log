@@ -24,7 +24,7 @@ const WorkoutDetailsPage = async ({ params }: DetailsPageProps) => {
         {/* Back Button */}
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-[#a3e635] mb-6 transition-colors"
+          className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-[#ccff00] mb-6 transition-colors"
         >
           <svg
             className="w-4 h-4"
@@ -73,7 +73,7 @@ const WorkoutDetailsPage = async ({ params }: DetailsPageProps) => {
                   {workout.muscleGroups.map((muscle, index) => (
                     <span
                       key={index}
-                      className="bg-[#1e2c14] text-[#a3e635] text-xs font-extrabold uppercase px-3 py-1 rounded-full tracking-wider"
+                      className="bg-[#1e2c14] text-[#ccff00] text-xs font-extrabold uppercase px-3 py-1 rounded-full tracking-wider"
                     >
                       {muscle}
                     </span>

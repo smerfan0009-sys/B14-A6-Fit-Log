@@ -38,7 +38,7 @@ const Navbar = () => {
                 href="/"
                 className={`px-5 py-2 rounded-full transition-all duration-200 ${
                   pathname === "/"
-                    ? "bg-[#1e2c14] text-[#a3e635] font-bold"
+                    ? "bg-[#1e2c14] text-[#ccff00] font-bold"
                     : "text-gray-400 hover:text-white"
                 }`}
               >
@@ -50,7 +50,7 @@ const Navbar = () => {
                 href="/my-plan"
                 className={`px-5 py-2 rounded-full transition-all duration-200 ${
                   pathname === "/my-plan"
-                    ? "bg-[#1e2c14] text-[#a3e635] font-bold"
+                    ? "bg-[#1e2c14] text-[#ccff00] font-bold"
                     : "text-gray-400 hover:text-white"
                 }`}
               >
@@ -67,7 +67,7 @@ const Navbar = () => {
             className="flex items-center gap-2 cursor-pointer"
           >
             <span className="text-gray-300 font-semibold">Plan</span>
-            <span className="bg-[#a3e635] text-black font-extrabold text-[11px] rounded-full w-5 h-5 flex items-center justify-center">
+            <span className="bg-[#ccff00] text-black font-extrabold text-[11px] rounded-full w-5 h-5 flex items-center justify-center">
               {todayPlan.length}
             </span>
           </Link>
@@ -76,7 +76,7 @@ const Navbar = () => {
             className="flex items-center gap-2 cursor-pointer"
           >
             <span className="text-gray-300 font-semibold">Saved</span>
-            <span className="bg-[#1d1f25] text-gray-300 text-[11px] rounded-full w-5 h-5 flex items-center justify-center border border-gray-700">
+            <span className="text-gray-300 text-[11px] rounded-full w-5 h-5 flex items-center justify-center border border-gray-700">
               {savedPlan.length}
             </span>
           </Link>

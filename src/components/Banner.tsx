@@ -11,7 +11,7 @@ const Banner = () => {
           <div className="flex flex-col lg:flex-row items-center justify-between gap-18">
             {/* Left Text Content */}
             <div className="space-y-6 max-w-xxl">
-              <p className="text-[#a3e635] font-semibold tracking-wider text-xs md:text-sm uppercase">
+              <p className="text-[#ccff00] font-semibold tracking-wider text-xs md:text-sm uppercase">
                 WORKOUT LIBRARY
               </p>
 
@@ -25,13 +25,12 @@ const Banner = () => {
                 it <br className="hidden md:inline" />
                 into today&apos;s plan, and watch the week&apos;s work add up.
               </p>
-
-              <button
-                type="button"
-                className="bg-[#a3e635] hover:bg-[#8ed028] text-black font-extrabold px-6 py-3.5 rounded-lg text-sm tracking-wider uppercase transition-colors"
+              <a
+                href="#library"
+                className="inline-flex items-center justify-center gap-2 bg-[#ccff00] hover:bg-[#8ed028] text-black font-extrabold px-6 py-3.5 rounded-lg text-sm tracking-wider uppercase transition-colors"
               >
-                BROWSE WORKOUTS
-              </button>
+                <span>BROWSE WORKOUTS</span>
+              </a>
             </div>
 
             {/* Right Image Content */}

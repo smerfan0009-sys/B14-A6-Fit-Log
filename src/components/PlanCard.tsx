@@ -99,8 +99,8 @@ const PlanCard: React.FC<PlanCardProps> = ({
             onClick={() => onToggleDone(workout.id)}
             className={`text-xs font-extrabold px-4 py-2.5 rounded-xl flex items-center gap-1.5 transition-colors ${
               isDone
-                ? "bg-[#1e2c14] text-[#a3e635] border border-[#a3e635]"
-                : "bg-[#a3e635] hover:bg-[#8ed028] text-black"
+                ? "bg-[#1e2c14] text-[#ccff00] border border-[#ccff00]"
+                : "bg-[#ccff00] hover:bg-[#8ed028] text-black"
             }`}
           >
             <svg

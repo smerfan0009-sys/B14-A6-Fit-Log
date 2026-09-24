@@ -21,8 +21,8 @@ const WorkoutActions: React.FC<WorkoutActionsProps> = ({ workout }) => {
         onClick={() => addToTodayPlan(workout)}
         className={`w-full sm:w-auto font-extrabold text-xs md:text-sm px-6 py-3.5 rounded-xl flex items-center justify-center gap-2 transition-colors uppercase tracking-wider ${
           isAddedToToday
-            ? "bg-[#283818] text-[#a3e635] border border-[#a3e635]"
-            : "bg-[#a3e635] hover:bg-[#8ed028] text-black"
+            ? "bg-[#283818] text-[#ccff00] border border-[#ccff00]"
+            : "bg-[#ccff00] hover:bg-[#8ed028] text-black"
         }`}
       >
         <svg
@@ -46,7 +46,7 @@ const WorkoutActions: React.FC<WorkoutActionsProps> = ({ workout }) => {
         onClick={() => addToSavedPlan(workout)}
         className={`w-full sm:w-auto border font-semibold text-xs md:text-sm px-6 py-3.5 rounded-xl flex items-center justify-center gap-2 transition-colors uppercase tracking-wider ${
           isSaved
-            ? "bg-[#1f242d] text-[#a3e635] border-[#a3e635]"
+            ? "bg-[#1f242d] text-[#ccff00] border-[#ccff00]"
             : "bg-[#181b22] hover:bg-[#20242d] text-white border-gray-700/80"
         }`}
       >

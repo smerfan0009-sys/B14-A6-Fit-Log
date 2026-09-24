@@ -6,7 +6,10 @@ const Cards = async () => {
   const workouts = await getWorkouts();
 
   return (
-    <section className="bg-[#0a0b0d] text-white py-10 px-4 lg:px-12">
+    <section
+      id="library"
+      className="bg-[#0a0b0d] text-white py-10 px-4 lg:px-12 scroll-mt-6"
+    >
       <div className="container mx-auto">
         <div className="mb-8">
           <h2 className="text-2xl md:text-3xl font-extrabold uppercase tracking-wider text-white">

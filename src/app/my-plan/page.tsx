@@ -62,7 +62,7 @@ const MyPlanPage = () => {
         <div className="bg-[#12141a] border border-gray-800/80 rounded-2xl p-6 grid grid-cols-3 gap-4 text-left">
           <div>
             <p className="text-gray-400 text-xs font-medium mb-1">Exercises</p>
-            <p className="text-3xl md:text-5xl font-black text-[#a3e635]">
+            <p className="text-3xl md:text-5xl font-black text-[#ccff00]">
               {totalExercises}
             </p>
           </div>
@@ -155,7 +155,7 @@ const MyPlanPage = () => {
 
             <Link
               href="/"
-              className="bg-[#a3e635] hover:bg-[#8ed028] text-black font-extrabold text-xs md:text-sm px-6 py-3 rounded-full transition-colors uppercase tracking-wider"
+              className="bg-[#ccff00] hover:bg-[#8ed028] text-black font-extrabold text-xs md:text-sm px-6 py-3 rounded-full transition-colors uppercase tracking-wider"
             >
               Go to workouts
             </Link>

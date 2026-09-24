@@ -28,7 +28,7 @@ const WorkoutCards: React.FC<WorkoutCardsProps> = ({ workout }) => {
             {workout.muscleGroups.map((muscle, index) => (
               <span
                 key={index}
-                className="bg-[#1e2c14] text-[#a3e635] text-[10px] font-extrabold uppercase px-2.5 py-0.5 rounded-full tracking-wider"
+                className="bg-[#1e2c14] text-[#ccff00] text-[10px] font-extrabold uppercase px-2.5 py-0.5 rounded-full tracking-wider"
               >
                 {muscle}
               </span>
