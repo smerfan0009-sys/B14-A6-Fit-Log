@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏋️‍♂️ FITLOG - Modern Workout & Fitness Planner
 
-## Getting Started
+A sleek, high-performance web application designed for fitness enthusiasts to discover exercises, structure their daily workout routines, and track burned calories efficiently.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Live Link:** [Pending Vercel Deployment] <!-- Add your Vercel URL here after deployment -->
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📌 About The Project
 
-## Learn More
+**FITLOG** is a modern workout management platform built with the Next.js App Router and TypeScript. It offers a clean dark-themed interface where users can browse an extensive exercise library, add workouts to their daily schedule or saved list, monitor calculated stats in real-time, and track completion progress.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework:** [Next.js 14+](https://nextjs.org/) (App Router)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **State Management:** React Context API
+- **Notifications:** [React Toastify](https://fkhadra.github.io/react-toastify/introduction/)
+- **Deployment Platform:** [Vercel](https://vercel.com/)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Key Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **🏋️ Comprehensive Workout Library**
+   - Browse curated exercise cards displaying difficulty levels, targeted muscle groups, duration, calorie burn estimations, sets, and reps.
+   - Smooth anchor navigation scrolling directly to the library from the hero section.
+
+2. **📅 Today's Plan & Saved Lifts Management**
+   - Effortlessly add workouts to **Today's Plan** or bookmark them under **Saved Lifts** using React Context state management.
+
+3. **📊 Dynamic Real-Time Metrics**
+   - Instant calculation and display of total selected exercises, overall workout duration (in minutes), and total estimated calories burned.
+
+4. **⚡ Sorting & Mark as Completed**
+   - Flexible plan sorting by **Duration**, **Calories**, or **Ratings**.
+   - Interactive check-off system allowing users to mark workouts as done with visual progress updates.
+
+5. **🔔 Dark-Themed Toast Notifications & Responsive Design**
+   - Real-time toast feedback for all user actions (add, remove, complete) paired with a high-contrast dark UI optimized for mobile, tablet, and desktop screens.
+
+---
+
+Developed with ❤️ for Fitness Enthusiasts.
