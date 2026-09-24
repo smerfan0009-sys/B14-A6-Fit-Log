@@ -6,7 +6,7 @@ A sleek, high-performance web application designed for fitness enthusiasts to di
 
 ## 🌐 Live Demo
 
-**Live Link:** [Pending Vercel Deployment] <!-- Add your Vercel URL here after deployment -->
+**Live Link:**   https://b14-a6-fit-log-nine.vercel.app/
 
 ---
 
