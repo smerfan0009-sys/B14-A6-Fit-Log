@@ -8,7 +8,7 @@ const Banner = () => {
       <div className="container mx-auto">
         {/* Container Box */}
         <div className="bg-[#12141a] rounded-2xl p-8 md:p-14 border border-dashed border-gray-800">
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-15">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-18">
             {/* Left Text Content */}
             <div className="space-y-6 max-w-xxl">
               <p className="text-[#a3e635] font-semibold tracking-wider text-xs md:text-sm uppercase">
